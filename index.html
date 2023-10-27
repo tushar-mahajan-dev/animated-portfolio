@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body onload="loader()">
+    <div id="loading"></div>
+
+    <div id="header" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <nav>
+                <img src="" alt="logo" class="logo" data-aos="zoom-in">
+                <ul id="sidemenu" data-aos="zoom-in">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <p>Back-End Developer</p>
+                <h1>Hi I Am <span>Ram</span>From India</h1>
+            </div>
+        </div>
+    </div>
+
+
+<!-------about------>
+<div id="about" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="about-col">
+                <img src="" data-aos="zoom-in">
+            </div>
+
+            <div class="about-col-2" data-aos="zoom-in">
+                <h1 class="sub-title">AbouT Me</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ab unde voluptate, in id harum sequi debitis, similique totam atque dolore ipsa quam tempora sapiente eveniet? Esse, omnis voluptatum. Iste exercitationem saepe earum accusantium pariatur aliquid quod impedit neque veritatis!</p>
+                <div class="table" data-aos="fade-left">
+                    <p class="tab active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab"  onclick="opentab('experience')">Experience</p>
+                    <p class="tab" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills" data-aos="zoom-in">
+                    <ul>
+                        <li><span>Python</span> Lorem ipsum dolor sit amet.</li>
+                        <li><span>Java</span> Lorem ipsum dolor sit amet.</li>
+                        <li><span>Software Testing</span> Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2019-January</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, ex?</li>
+                        <li><span>2020-January</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, ex?</li>
+                        <li><span>2021-January</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, ex?</li>
+                        <li><span>2022-January</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, ex?</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>CSE From Delhi University</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, cupiditate.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----service----->
+<div is="service" data-aos="fade-up" data-aos-anchor-placement="top-center">
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="list">
+        <div data-aos="fade-right">
+            <img src="">
+            <h2>Java</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, fuga!</p>
+            <a href="">Read More</a>
+        </div>
+
+        <div data-aos="flip-up">
+            <img src="">
+            <h2>App Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, suscipit!</p>
+            <a href="">Read More</a>
+        </div>
+
+        <div data-aos="flip-left">
+            <img src="">
+            <h2>Digital marketing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, suscipit!</p>
+            <a href="">Read More</a>
+        </div>        
+    </div>
+</div>
+</div>
+
+<!----portfolio----->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, eos!.....</p>
+        <div class="work-list">
+            <div class="work" data-aos="zoom-in">
+                <img src="seo.jpg">
+                <div class="layer">
+                    <h3>Website Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, tempora?</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work" data-aos="zoom-in">
+                <img src="">
+                <div class="layer">
+                    <h3>Website Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, tempora?</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work" data-aos="zoom-in">
+                <img src="">
+                <div class="layer">
+                    <h3>Website Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, tempora?</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="" class="btn">Learn More</a>
+    </div>
+</div>
+
+<!----contact---->
+<div id="contact"  >
+    <div class="contenier">
+        <div class="row">
+            <div class="contact-left"  data-aos="fade-up-right">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kjhgf@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone-flip"></i>936987633</p>
+                <div class="social-icons" data-aos="zoom-in">
+    
+                   <i class="fa-brands fa-square-instagram"></i>
+                   <i class="fa-brands fa-github"></i>
+                   <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+            </div>
+            <div class="contact-right" data-aos="fade-up-left">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="massage" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright@ TechGyan .<i class="fa-solid fa-heart"></i> website Development</p>
+    </div>
+  </div>
+
+  
+
+<script>
+    var preloader=document.getElementById('loading');
+    function loader(){
+    preloader.style.display='none';
+    }
+</script>
+
+
+<script>
+    var tab = document.getElementsByClassName("tab")
+    var tabcontents =document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tabs of tab){
+            tabs.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<!---aos--->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration:900,
+    });
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</html>
